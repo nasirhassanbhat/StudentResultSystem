@@ -7,7 +7,7 @@ public class DBConnect {
             return DriverManager.getConnection(
                 "jdbc:oracle:thin:@localhost:1521:xe",
                 "system",
-                "123456789"
+                "12345678"
             );
         } catch (Exception e) {
             System.out.println("DB Error: " + e);
@@ -15,3 +15,4 @@ public class DBConnect {
         }
     }
 }
+
